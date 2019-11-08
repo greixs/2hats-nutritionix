@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ae7afc6824915111f7b938dc4fee132",
+    "revision": "d03f18978fa5f67b192567fa80cb040e",
     "url": "/2hats-nutritionix/index.html"
   },
   {
-    "revision": "117ee22e357279401094",
+    "revision": "765b4aed0626dcda9fc7",
     "url": "/2hats-nutritionix/static/css/main.b3473eaa.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2hats-nutritionix/static/js/2.c63bf107.chunk.js"
   },
   {
-    "revision": "117ee22e357279401094",
-    "url": "/2hats-nutritionix/static/js/main.4eeebd6e.chunk.js"
+    "revision": "765b4aed0626dcda9fc7",
+    "url": "/2hats-nutritionix/static/js/main.c7acc042.chunk.js"
   },
   {
     "revision": "3f66d3e88e7f31939858",
