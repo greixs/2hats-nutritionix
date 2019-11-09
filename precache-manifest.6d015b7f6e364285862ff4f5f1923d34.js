@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d03f18978fa5f67b192567fa80cb040e",
+    "revision": "d78e754817e060755e7482c3e3bcc0b7",
     "url": "/2hats-nutritionix/index.html"
   },
   {
-    "revision": "765b4aed0626dcda9fc7",
+    "revision": "295ea4368d74f8a8b013",
     "url": "/2hats-nutritionix/static/css/main.b3473eaa.chunk.css"
   },
   {
-    "revision": "c2d7e5c97a4e92382222",
-    "url": "/2hats-nutritionix/static/js/2.c63bf107.chunk.js"
+    "revision": "70a19f290ea8d858324d",
+    "url": "/2hats-nutritionix/static/js/2.09fd9370.chunk.js"
   },
   {
-    "revision": "765b4aed0626dcda9fc7",
-    "url": "/2hats-nutritionix/static/js/main.c7acc042.chunk.js"
+    "revision": "295ea4368d74f8a8b013",
+    "url": "/2hats-nutritionix/static/js/main.392f3a6d.chunk.js"
   },
   {
     "revision": "3f66d3e88e7f31939858",
