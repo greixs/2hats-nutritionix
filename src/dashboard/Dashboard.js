@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Profile from "./Profile";
-import { diet } from "../MockData.js";
 import Types from "./intakes/Types";
 
 import { withStyles } from "@material-ui/core/styles";
@@ -90,7 +89,7 @@ class Dashboard extends Component {
 
   componentDidMount() {
     this.setState({
-      profile: diet
+      profile: this.props.diet
     });
   }
 }

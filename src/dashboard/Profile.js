@@ -149,7 +149,10 @@ class Profile extends Component {
             </Avatar>
           </Grid>
           <Grid item xs={4}>
-            <Avatar src="/jane.jpg" className={classes.profile_img} />
+            <Avatar
+              src={process.env.PUBLIC_URL + "/jane.jpg"}
+              className={classes.profile_img}
+            />
           </Grid>
           <Grid item xs={4}>
             <Avatar className={classes.avatar}>

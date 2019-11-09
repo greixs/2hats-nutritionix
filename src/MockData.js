@@ -7,13 +7,13 @@ export let diet = {
   data_points: [
     {
       //today's date
-      date: "2019-11-5",
+      date: "",
       //empty, let user do the input
       intake_list: []
     },
     {
       //yesterday's date
-      date: "2019-11-4",
+      date: "",
       intake_list: [
         {
           //branded food has nix_item_id, common food doesn't
@@ -76,7 +76,7 @@ export let diet = {
     },
     {
       //2 days ago
-      date: "2019-11-3",
+      date: "",
       intake_list: [
         {
           food_name: "fried eggs",

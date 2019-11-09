@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import moment from "moment";
+
+import { diet } from "./MockData.js";
 
 import Dashboard from "./dashboard/Dashboard";
 import SearchBar from "./searchbar/SearchBar";
@@ -22,7 +25,8 @@ class App extends Component {
     super(props);
 
     this.state = {
-      date: 0
+      date: 0,
+      diet: {}
     };
     this.inputRef = React.createRef();
   }
@@ -48,6 +52,7 @@ class App extends Component {
           inputRef={this.inputRef}
         />
         <Dashboard
+          diet={diet}
           ref={instance => {
             this.dashboard = instance;
           }}
@@ -66,9 +71,19 @@ class App extends Component {
   }
 
   componentDidMount() {
+    // set the mock data_points date from today to 2 days ago
+    let newDiet = diet;
+    newDiet.data_points = newDiet.data_points.map((data_point, index) => {
+      data_point.date = moment(new Date())
+        .subtract(index, "days")
+        .format("YYYY-MM-DD");
+      return data_point;
+    });
+
     this.setState(
       {
-        date: new Date()
+        date: new Date(),
+        diet: newDiet
       },
       () => {
         this.dashboard.findIndexByDate(new Date());
